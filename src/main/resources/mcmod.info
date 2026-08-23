@@ -1,0 +1,14 @@
+[{
+  "modid": "hbmtweaks",
+  "name": "HBM Tweaks",
+  "description": "Companion mod for HBM NTM-CE: tweak weapons/mobs/foods via config/hbmtweaks.json",
+  "version": "1.1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["DiaoMIAO"],
+  "credits": "vanillaDev",
+  "logoFile": "assets/hbmtweaks/HBM-tweak-logo.png",
+  "screenshots": [],
+  "dependencies": []
+}]

@@ -1,0 +1,17 @@
+{
+  "package": "com.hbmtweaks.mixin",
+  "required": false,
+  "refmap": "mixins.hbmtweaks.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "TurretMixin",
+    "ReceiverMixin",
+    "EntityProcessorStandardMixin",
+    "ItemAmmoArtyMixin",
+    "EntityGrenadeUniversalMixin",
+    "EntityProcessorCrossSmoothMixin",
+    "EntityLivingBaseMixin"
+  ]
+}
