@@ -13,7 +13,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
  * 炮击炮弹爆炸标志位 Mixin（配合 EntityProcessorStandardMixin 使用）。
  *
  * 在 ItemAmmoArty.standardExplosion（炮弹落地爆炸的公共入口）执行期间
- * 置起/清除 ArtilleryFlag，EntityProcessorStandard 结算实体伤害时据此将炮弹爆炸伤害 ×0.1。
+ * 置起/清除 ArtilleryFlag，EntityProcessorStandard 结算实体伤害时据此应用
+ * 配置的 artilleryDamageMult 炮弹爆炸伤害倍率（模组不预设任何数值）。
  * 注意：mixin 类中不允许添加 public static 方法，标志位放在普通类 ArtilleryFlag 中。
  */
 @Mixin(ItemAmmoArty.class)
